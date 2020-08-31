@@ -26,3 +26,5 @@ Using Logistics Regression I got an accuracy or Jaccard Similarity score of 71% 
 # Discussion
 We are able to see many accidents on clear days due to the large amount of clear days in the dataset. The most important thing in this was feature selection. Realizing that although speeding and driving had a nice correlation, those are uncontrollable features and would not help the Department of Transportation. However analyzing that light, road, and weather conditions played a role and proving that shows that these are features that passengers could take into account when driving. The model was a good model, with an accuracy of 70% but the biggest factor of this analysis was seeing the correlation between natural conditions and accidents. We can conclude that the way to make passengers get into less accidents is by making them aware of light road and weather conditions.
 
+# Discussion
+We are able to see that weather, road, and light conditions most impact accident severity, thus we should report to the Seattle Dept of Transportation that the way to prevent severe accidents is by letting drivers know the road, weather, and light conditions.
