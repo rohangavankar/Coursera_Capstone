@@ -18,6 +18,11 @@ Label:
 Severitycode
 
 # Methodology
+I created a dataframe with columns that only included weather conditions, road conditions, light conditions, and, of course, the severity code. After this I used Pearson Coefficient and Correlation to determine the strength of the relationship of each feature and the label. Then I was confident that these features would make a good model. I decided to use Logistic Regression, because the label only had 2 outcomes, a severity code of 1 or 2. 
 
-I created a dataframe with columns that only included weather conditions, road conditions, light conditions, and, of course, the severity code. After this I used Pearson Coefficient and Correlation to determine the strength of the relationship of each feature and the label. Then I was confident that these features would make a good model. I decided to use Logistic Regression, because the label only had 2 outcomes, a severity code of 1 or 2. Using logistics Regression I got an accuracy score of 71% and an F1score of 0.41. 
+# Results
+Using Logistics Regression I got an accuracy or Jaccard Similarity score of 71% and an F1score of 0.41. 
+
+# Discussion
+We are able to see many accidents on clear days due to the large amount of clear days in the dataset. The most important thing in this was feature selection. Realizing that although speeding and driving had a nice correlation, those are uncontrollable features and would not help the Department of Transportation. However analyzing that light, road, and weather conditions played a role and proving that shows that these are features that passengers could take into account when driving. The model was a good model, with an accuracy of 70% but the biggest factor of this analysis was seeing the correlation between natural conditions and accidents. We can conclude that the way to make passengers get into less accidents is by making them aware of light road and weather conditions.
 
