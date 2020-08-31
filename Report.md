@@ -13,7 +13,11 @@ Attributes Used in Feature Selection:
 Weather
 Roadcond
 Lightcond
-SDOT_COLDSEC
 
 Label:
 Severitycode
+
+# Methodology
+
+I created a dataframe with columns that only included weather conditions, road conditions, light conditions, and, of course, the severity code. After this I used Pearson Coefficient and Correlation to determine the strength of the relationship of each feature and the label. Then I was confident that these features would make a good model. I decided to use Logistic Regression, because the label only had 2 outcomes, a severity code of 1 or 2. Using logistics Regression I got an accuracy score of 71% and an F1score of 0.41. 
+
